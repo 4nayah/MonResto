@@ -1,0 +1,218 @@
+* {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  /*font-family: 'Roboto', sans-serif;*/
+}
+
+.green {
+  color: #449f1b;
+}
+
+.App {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #333;
+}
+
+h1 {
+  margin: 200px 0;
+  font-size: 500%;
+}
+h2 {
+  text-align: left;
+  left: 0;
+  font-size: 200%;
+}
+
+.BaseLine {
+  font-size: 20%;
+}
+
+.blur {
+  filter: blur(5px);
+  pointer-events: none;
+}
+
+.Menu_Container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  background-image: url(http://hugoanaya.fr/build/images/images/upload/Background-min.jpg);
+  background-size: 100%;
+  background-position: top left;
+  background-attachment: fixed;
+}
+
+.Subtitle {
+  margin-left: -28%;
+}
+
+.basket_container {
+  background-color: white;
+  width: 20%;
+  height: 97%;
+  min-height: 200px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 20px;
+  margin: 1em;
+  position: fixed;
+  right: 0;
+  padding: 1em;
+}
+
+.closeBasket {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: white;
+  border: 2px solid black;
+  width: 30px;
+  height: 30px;
+  line-height: 1.7em;
+  margin-right: -10px;
+  margin-top: -10px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.list_Product {
+  list-style-type: none;
+  padding-bottom: 50px;
+}
+li {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 10px;
+  position: relative;
+  height: 50px;
+  line-height: 3em;
+  border-bottom: 1px lightgray solid;
+  overflow: hidden;
+}
+
+.product_Card {
+  width: 50%;
+  height: auto;
+  margin: 1em;
+  max-height: 200px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  overflow: hidden;
+  position: relative;
+  text-align: left;
+}
+
+.Product_Name {
+  text-align: left;
+  left: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  line-height: 1.8em;
+}
+img {
+  width: 25%;
+  height: 100%;
+  margin-right: 10px;
+  border: 5px #f1f1f1 solid;
+}
+.BasketToggle {
+  background-color: white;
+  width: 250px;
+  line-height: 2em;
+  border-radius: 3px;
+  height: 30px;
+  margin: 1em;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 20px;
+  position: fixed;
+  right: 0;
+  cursor: pointer;
+}
+
+.ItemInBasket {
+  width: 30px;
+  height: 30px;
+  background-color: #449f1b;
+  color: white;
+  border-radius: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-top: -5px;
+  margin-right: -5px;
+}
+.Button_Basket {
+  height: 30px;
+  width: auto;
+  padding: 10px 20px;
+  line-height: 0.5em;
+  border-radius: 3px;
+  cursor: pointer;
+  border: none;
+  color: white;
+  background-color: #449f1b;
+}
+
+.Button_Delete_Basket {
+  position: absolute;
+  right: 0;
+  margin-top: 10px;
+  height: 25px;
+  width: 50px;
+  cursor: pointer;
+  font-size: 70%;
+  color: grey;
+  border: none;
+  background-color: white;
+}
+
+.Price_Basket {
+  position: absolute;
+  right: 0;
+  margin-right: 25%;
+}
+
+.Valid_Basket {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: #449f1b;
+  cursor: pointer;
+  color: white;
+  border: none;
+}
+
+.TotalBasket {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: 20px;
+  margin-bottom: 70px;
+  text-align: right;
+}
+
+.Footer {
+  width: 100%;
+  height: 60px;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  margin-top: 100px;
+}
